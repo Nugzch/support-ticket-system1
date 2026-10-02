@@ -1,4 +1,5 @@
 # Заметки по архитектуре
-- Основная СУБД: MySQL
-- Жизненный цикл заявки: New -> In Progress -> Resolved -> Closed
-- Формат обмена данными: JSON
+- Основная СУБД: PostgreSQL
+- Жизненный цикл заявки: New -> In Progress -> Escalated -> Resolved -> Closed
+- Формат обмена данными: REST JSON over HTTPS
+- Очередь сообщений: RabbitMQ
